@@ -30,7 +30,7 @@ jobs:
     - name: Build Docker Image
       run: |
         docker build -t andrucar25/docker-graphql:0.0.1 .
-        docker build andrucar25/docker-graphql:latest .
+        docker build -t andrucar25/docker-graphql:latest .
 
     - name: Push Docker Image
       run: |
