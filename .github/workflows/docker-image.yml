@@ -33,4 +33,4 @@ jobs:
 
     - name: Push Docker Image
       run: |
-        docker push andrucar25/docker-graphql:0.0.1 .
+        docker push andrucar25/docker-graphql:0.0.1
